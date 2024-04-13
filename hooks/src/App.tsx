@@ -4,6 +4,7 @@ import UserReducerDemo from './components/UseReducerDemo';
 import UseRefDemo from './components/UseRefDemo';
 import UseContextDemo from './components/UseContextDemo';
 import UseMemoDemo from './components/UseMemoDemo';
+import UseImperativeHandleDemo from './components/UseImperativeHandleDemo';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <UseRefDemo />
       <UseContextDemo />
       <UseMemoDemo />
+      <UseImperativeHandleDemo />
     </>
   )
 }
