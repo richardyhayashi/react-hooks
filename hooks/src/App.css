@@ -1,0 +1,7 @@
+.tutorial {
+  @apply flex flex-col items-center m-3;
+}
+
+button {
+  @apply w-32 border bg-blue-500 text-white rounded-lg hover:bg-blue-900 hover:text-white active:text-yellow-300;
+}
