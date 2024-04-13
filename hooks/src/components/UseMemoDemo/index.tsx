@@ -7,8 +7,8 @@ const UseMemoDemo = () => {
     const [items] = useState(initialItems);
 
     const selectedItem = useMemo(
-        () => items.find((item) => item.isSelected),
-        [items]
+        () => items.find((item) => item.id === count), // item.isSelected),
+        [items, count]
     );
 
     return (
