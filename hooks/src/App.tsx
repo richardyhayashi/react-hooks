@@ -2,6 +2,7 @@ import UseStateDemo from './components/UseStateDemo';
 import UseEffectDemo from './components/UseEffectDemo';
 import UserReducerDemo from './components/UseReducerDemo';
 import './App.css';
+import UseRefDemo from './components/UseRefDemo';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <UseStateDemo />
       <UseEffectDemo />
       <UserReducerDemo />
+      <UseRefDemo />
     </>
   )
 }
